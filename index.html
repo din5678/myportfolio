@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pen Rodin | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">Pen Rodin</a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#design">Design</a>
+      <a href="#skills">Skills</a>
+      <a class="btn btn-solid" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <h1 id="hero-title">Designing and building thoughtful experiences.</h1>
+        <p>I’m a year-3 IT student at the University of South-East Asia and a graphic design intern. I make posters, UX-Ui design, websites and apps, and I’m looking for real-world experience on a team.</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="https://github.com/din5678" target="_blank" rel="noopener noreferrer">View projects</a>
+          <a class="btn btn-outline" href="Pen-Rodin-CV.pdf" download="Pen-Rodin-CV.pdf">Download CV</a>
+        </div>
+      </div>
+      <div class="photo-wrap">
+        <svg class="rings" viewBox="0 0 660 680" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+          <circle cx="330" cy="290" r="250" opacity="0.5"/>
+          <circle cx="330" cy="290" r="290" opacity="0.35"/>
+          <circle cx="330" cy="290" r="330" opacity="0.22"/>
+        </svg>
+        <div class="photo"><img src="photo.jpg" alt="Portrait of Pen Rodin holding a certificate at a university award ceremony"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" aria-labelledby="about-title">
+    <div class="wrap about-grid">
+      <h2 id="about-title">Curious about technology and design.</h2>
+      <div class="about-copy">
+        <p class="lede">I’m a year-3 IT student at the University of South-East Asia with a foundation in programming, databases and system management. Alongside my studies I work as a graphic design intern, creating posters for festivals, workshops and school programs, and teaching students how to build their CVs.</p>
+        <p class="lede">I enjoy working in a team, solving problems and learning by building real things.</p>
+        <div class="stats">
+          <div class="stat"><b>Year 3</b><span>IT student at USEA</span></div>
+          <div class="stat"><b>Nov 25–May 26</b><span>Graphic design intern</span></div>
+          <div class="stat"><b>4</b><span>Languages: Khmer, English, French, Chinese</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects" aria-labelledby="projects-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="projects-title">Projects I’ve built</h2>
+        <p class="lede">Eight school projects across Figma, web, desktop and mobile. Click a project to see screenshots or watch its demo, and follow the link to see the code.</p>
+      </div>
+      <div class="project-grid">
+
+        <article class="project">
+          <button class="project-media" type="button" data-title="BookStore website" data-media='[{"type":"image","src":"projects_img/BookStore.png","alt":"BookStore website home page"}]' aria-label="View BookStore website screenshot">
+            <img src="projects_img/BookStore.png" alt="BookStore website home page with a stack of books" loading="lazy">
+            <span class="media-badge">View screenshot</span>
+          </button>
+          <div class="project-body">
+            <h3>BookStore website</h3>
+            <p class="meta">Year 3 school project</p>
+            <p>An online bookstore with product pages, a shopping cart, checkout, contact and help pages.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li></ul>
+            <div class="plinks"><a href="https://github.com/din5678/02sundayproject" target="_blank" rel="noopener">View on GitHub</a></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <button class="project-media tall" type="button" data-title="Room Booking app" data-media='[{"type":"image","src":"projects_img/RoomBooking.png","alt":"Room Booking rooms page"}]' aria-label="View Room Booking screenshots">
+            <img src="projects_img/RoomBooking.png" alt="Room Booking app rooms page with filters and room cards" loading="lazy">
+            <span class="media-badge">View screenshots</span>
+          </button>
+          <div class="project-body">
+            <h3>Room Booking app</h3>
+            <p class="meta">Year 3 school project</p>
+            <p>A web application for booking rooms, built with PHP.</p>
+            <ul class="tags"><li>PHP</li><li>Web app</li></ul>
+            <div class="plinks"><a href="https://gitlab.com/krotthida/bookinghotelsystem" target="_blank" rel="noopener">View on GitLab</a><a href="https://www.figma.com/design/XdL0BJ1JyhG2ARRdA9dljI/room?node-id=0-1&p=f&t=Sf4HYlIyUaLr3e7P-0" target="_blank" rel="noopener">View on Figma</a></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <button class="project-media" type="button" data-title="Coffee Shop app" data-media='[{"type":"video","src":"projects_img/video/CoffeeShop.mp4","poster":"projects_img/CoffeeShop.png","label":"Demo video"}]' aria-label="Watch Coffee Shop app demo">
+            <img src="projects_img/CoffeeShop.png" alt="Coffee Shop app dashboard with drinks, order list and payment summary" loading="lazy">
+            <span class="media-badge play">Watch demo</span>
+          </button>
+          <div class="project-body">
+            <h3>Coffee Shop app</h3>
+            <p class="meta">Year 2 school project</p>
+            <p>A desktop application for running a coffee shop, built with C#.</p>
+            <ul class="tags"><li>C#</li><li>Desktop app</li></ul>
+            <div class="plinks"><a href="https://www.figma.com/design/CBKwNXbwrVURLvI9BhjnPm/Coffee-shop?node-id=0-1&p=f&t=yNKnj2aLIDiyjgKs-0" target="_blank" rel="noopener">View on Figma</a></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <button class="project-media phone" type="button" data-title="E-Learning app" data-media='[{"type":"image","src":"projects_img/E-Learning.png","alt":"E-Learning app home screen"},{"poster":"projects_img/E-Learning.png","label":"Figma design walkthrough"}]' aria-label="View E-Learning app design and walkthrough">
+            <img src="projects_img/E-Learning.png" alt="E-Learning app home screen with subject tiles for HTML, CSS, JavaScript, PHP, Laravel and C++" loading="lazy">
+            <span class="media-badge play">Watch walkthrough</span>
+          </button>
+          <div class="project-body">
+            <h3>E-Learning app</h3>
+            <p class="meta">Year 3 school project, in progress</p>
+            <p>An Android e-learning prototype for university students, with courses on HTML, CSS, JavaScript and Microsoft Windows. Designed in Figma and built with Java.</p>
+            <ul class="tags"><li>Java</li><li>Figma</li><li>Android</li></ul>
+            <div class="plinks"><a href="https://www.figma.com/design/zhipeV4gbqsygg8fErWjD0/E-Learning?node-id=0-1&p=f&t=4D1Wiah3yPWcIGOK-0" target="_blank" rel="noopener">View on Figma</a>
+            <a href="https://github.com/din5678" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <button class="project-media phone" type="button" data-title="Student Profile app" data-media='[{"type":"video","src":"projects_img/video/StudentProfileApp.mp4","poster":"projects_img/StudentProfile.png","label":"Demo video"}]' aria-label="Watch Student Profile app demo">
+            <img src="projects_img/StudentProfile.png" alt="Student Profile app list view with student names, IDs and majors" loading="lazy">
+            <span class="media-badge play">Watch demo</span>
+          </button>
+          <div class="project-body">
+            <h3>Student Profile app</h3>
+            <p class="meta">Year 3 school project</p>
+            <p>An Android app for managing student profiles: add, edit and delete students, and browse them in a list or grid view.</p>
+            <ul class="tags"><li>Java</li><li>Android Studio</li><li>Android</li></ul>
+            <div class="plinks"><a href="https://github.com/din5678/StudentProfileApps" target="_blank" rel="noopener">View on GitHub</a></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <button class="project-media phone" type="button" data-title="Matcha App" data-media='[{"poster":"projects_img/MatchaFigma.png","label":"Figma design"}]' aria-label="Screenshot of Matcha App design in Figma">
+            <img src="projects_img/MatchaFigma.png" alt="Matcha Figma design" loading="lazy">
+            <span class="media-badge play">Watch design</span>
+          </button>
+          <div class="project-body">
+            <h3>Matcha App</h3>
+            <p class="meta">Year 2 school project</p>
+            <p>A mobile app for discovering and ordering matcha drinks from local shops.</p>
+            <ul class="tags"><li>Figma</li></ul>
+            <div class="plinks"><a href="https://www.figma.com/design/sv0MYjtlOhjpuZXUZAWN6c/Matcha?node-id=0-1&p=f&t=LJ1rZ2zsIxLEnDRo-0" target="_blank" rel="noopener">View on Figma</a></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <button class="project-media phone" type="button" data-title="Calculator app" data-media='[{"type":"video","src":"projects_img/video/Cal.mp4","poster":"projects_img/CalAndroid.png","label":"Demo video"}]' aria-label="Watch Calculator app demo">
+            <img src="projects_img/CalAndroid.png" alt="Calculator app interface" loading="lazy">
+            <span class="media-badge play">Watch demo</span>
+          </button>
+          <div class="project-body">
+            <h3>Calculator app</h3>
+            <p class="meta">Year 3 school project</p>
+            <p>An Android app for performing basic calculations.</p>
+            <ul class="tags"><li>Java</li><li>Android Studio</li><li>Android</li></ul>
+            <div class="plinks"><a href="https://github.com/din5678/calculator" target="_blank" rel="noopener">View on GitHub</a></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <button class="project-media" type="button" data-title="Login and Register website" data-media='[{"type":"video","src":"projects_img/video/Login.mp4","poster":"projects_img/login.png","label":"Demo video"}]' aria-label="Watch Login and Register website demo">
+            <img src="projects_img/login.png" alt="Login and Register website home page" loading="lazy">
+            <span class="media-badge play">Watch demo</span>
+          </button>
+          <div class="project-body">
+            <h3>Login and Register website</h3>
+            <p class="meta">Year 3 school project</p>
+            <p>An online bookstore with product pages, a shopping cart, checkout, contact and help pages.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li></ul>
+            <div class="plinks"><a href="https://github.com/din5678/Login" target="_blank" rel="noopener">View on GitHub</a></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="design" aria-labelledby="design-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="design-title">Design samples</h2>
+        <p class="lede">Posters I designed as an intern at USEA University for staff recruitment, national festivals, workshops and school programs.</p>
+      </div>
+      <div class="poster-grid">
+        <figure class="poster-fig">
+          <img src="posters/poster1.jpg" alt="Khmer New Year festival poster for USEA Career Center">
+          <figcaption>National festival poster</figcaption>
+        </figure>
+        <figure class="poster-fig">
+          <img src="posters/poster5.png" alt="USEA Workshop poster for Pesional Financial management Course. ">
+          <figcaption>Workshop Poster</figcaption>
+        </figure>
+        <figure class="poster-fig">
+          <img src="posters/poster12.jpg" alt="USEA workshop poster with Worri Bank">
+          <figcaption>Workshop poster</figcaption>
+        </figure>
+        <figure class="poster-fig">
+          <img src="posters/poster6.png" alt="USEA workshop poster with panel speakers">
+          <figcaption>Workshop poster</figcaption>
+        </figure>
+        <figure class="poster-fig">
+          <img src="posters/poster8.png" alt="USEA workshop poster with JE & Young Startup panel speakers">
+          <figcaption>Workshop poster</figcaption>
+        </figure>
+        <figure class="poster-fig">
+          <img src="posters/poster9.jpg" alt="USEA workshop poster with Blum Center">
+          <figcaption>Workshop poster</figcaption>
+        </figure>
+        <p><i class="fa fa-link"></i><a href="https://drive.google.com/drive/folders/18Vc0BQOLemBCYhl6-E3OJy63pg7bF3oj" target="_blank" rel="noopener">See the full set</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="deep" aria-labelledby="skills-title">
+    <div class="wrap">
+      <h2 id="skills-title">Skills and learning journey</h2>
+      <div class="skills-grid">
+
+        <div class="group">
+          <h3>What I work with</h3>
+          <p class="chip-label">Web</p>
+          <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>PHP</li></ul>
+          <p class="chip-label">Apps and design</p>
+          <ul class="chips"><li>C#</li><li>Java</li><li>Figma</li><li>Poster design</li></ul>
+          <p class="chip-label">Foundations</p>
+          <ul class="chips"><li>Programming</li><li>Databases</li><li>System management</li></ul>
+          <p class="chip-label">Working with others</p>
+          <ul class="chips"><li>Teamwork</li><li>Leadership</li><li>Communication</li><li>Problem solving</li><li>Time management</li></ul>
+        </div>
+
+        <div class="group">
+          <h3>Languages</h3>
+          <div class="lang"><div class="lang-row"><span>Khmer</span><span>100%</span></div><div class="track"><i style="width:100%"></i></div></div>
+          <div class="lang"><div class="lang-row"><span>English</span><span>80%</span></div><div class="track"><i style="width:80%"></i></div></div>
+          <div class="lang"><div class="lang-row"><span>French</span><span>60%</span></div><div class="track"><i style="width:60%"></i></div></div>
+          <div class="lang"><div class="lang-row"><span>Chinese</span><span>50%</span></div><div class="track"><i style="width:50%"></i></div></div>
+        </div>
+
+        <div class="group">
+          <h3>Learning journey</h3>
+          <ol class="timeline">
+            <li><b>2023</b>Started IT studies at the University of South-East Asia.</li>
+            <li><b>Year 2</b>Built a coffee shop desktop app in C#.</li>
+            <li><b>Year 3</b>Built a bookstore website, a room booking web app, an e-learning Android prototype and a student profile Android app.</li>
+            <li><b>Nov 2025–May 2026</b>Graphic design intern at USEA University: posters, workshops and CV coaching for students.</li>
+          </ol>
+        </div>
+        <div class="group">
+          <h3>Certificates and activities</h3>
+          <p class="chip-label">See certificates on <a href="https://drive.google.com/drive/folders/1Dm2nLE9I8AzqVb-ggskLJy3ZB0ladanE" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Google Drive</a></p>
+          <ul class="certs">
+            <li>Digital Talents</li>
+            <li>Angel International Innovation Competition</li>
+            <li>Cisco Networking Academy</li>
+            <li>Unipreneur course and competition</li>
+            <li>Computer course</li>
+            <li>Soft skill course</li>
+            <li>Web and UX UI Design Course</li>
+            <li>Asian Data Science Explorer Enablement Session</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div>
+        <h2 id="contact-title">Let’s work together.</h2>
+        <p class="lede" style="margin-top:20px">I’m looking for an internship where I can work in a team and learn from real projects. Send me a message and I’ll reply soon.</p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:penrodin08@gmail.com">penrodin08@gmail.com</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/pen-rodin-249a04421/" target="_blank" rel="noopener">linkedin.com/in/pen-rodin-249a04421</a></li>
+          <li><span>GitHub</span><a href="https://github.com/din5678" target="_blank" rel="noopener">github.com/din5678</a></li>
+        </ul>
+      </div>
+      <form id="contact-form" novalidate>
+        <label>Name<input type="text" name="name" autocomplete="name" required></label>
+        <label>Email<input type="email" name="email" autocomplete="email" required></label>
+        <label>Message<textarea name="message" required></textarea></label>
+        <button class="btn btn-solid" type="submit">Send message</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="deep">
+  <div class="wrap foot">
+    <span>Pen Rodin</span>
+    <span>Portfolio design preview</span>
+  </div>
+</footer>
+
+
+<dialog id="media-dialog" aria-labelledby="media-title">
+  <div class="dlg-head">
+    <h3 id="media-title"></h3>
+    <button type="button" class="dlg-close" aria-label="Close">&times;</button>
+  </div>
+  <div class="dlg-body" id="media-body"></div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
